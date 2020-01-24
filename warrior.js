@@ -1,4 +1,4 @@
-class Warrior {
+export default class Warrior {
   constructor(name, health, weapon) {
     this.name = name;
     this.health = health;
@@ -17,5 +17,3 @@ class Warrior {
     return this.health - damage;
   }
 }
-
-export default Warrior;
