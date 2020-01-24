@@ -5,6 +5,10 @@ class Warrior {
     this.weapon = weapon;
   }
 
+  getName() {
+    return this.name;
+  }
+
   getWeapon() {
     return this.weapon;
   }

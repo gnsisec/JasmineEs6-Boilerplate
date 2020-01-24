@@ -6,6 +6,9 @@ describe('Warrior Unit Test', () => {
     warrior = new Warrior('Dave, the Nomad', 100, 'sword');
   });
 
+  it('should return warior name', () => {
+    expect(warrior.getName()).toEqual('Dave, the Nomad');
+  });
   it('should return warrior weapon', () => {
     expect(warrior.getWeapon()).toBe('sword');
   });
